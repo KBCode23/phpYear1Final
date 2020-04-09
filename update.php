@@ -1,1 +1,2 @@
 <?php
+$title = 'Update';
