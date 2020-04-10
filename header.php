@@ -7,6 +7,15 @@
 <body>
 <main>
 
+    <!--connect and get number of hotels-->
+    <?php
+    $numOfHotels = null;
+    require_once 'db.php';
+
+    $db = null;
+    ?>
+
     <a href="hotels.php">Hotels</a>
+    <p>Number Of Hotels: <?php echo $numOfHotels?></p>
     <a href="api/hotels.php">API</a>
 
